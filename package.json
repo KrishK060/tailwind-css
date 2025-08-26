@@ -1,0 +1,29 @@
+{
+  "name": "tailwing-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch --content ./src/index.html --safelist bg-red-400",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify --content ./src/index.html --safelist bg-red-400",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishK060/tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishK060/tailwind-css/issues"
+  },
+  "homepage": "https://github.com/KrishK060/tailwind-css#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.12"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12"
+  }
+}
